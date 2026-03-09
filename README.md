@@ -16,4 +16,4 @@ GET /order/list
 GET /order/:id
 DELETE /order/:id
 
-A API salva os pedidos em memória enquanto o servidor estiver rodando. Ao reiniciá-lo, os dados desaparecerão
+A API salva os dados em MongoDB (Mongoose)
